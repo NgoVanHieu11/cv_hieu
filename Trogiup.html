@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="B" >
+        <div id="b1" >
+            <div id="logo">
+                <img src="image/Văn hóa.png" alt="" width="100px" height="100px">
+            </div>
+            <ul id="thongtin">
+                <li><a href="Trangchu.html">Trang chủ</a></li>
+                <li><a href="Vechungtoi.html">Về Chúng tôi</a></li>
+                <li>
+                    <a href="Congthuc.html">Công Thức</a>
+                    <ul class="congthuc">
+                        <li><a href="">Cơm Chiên</a></li>
+                        <li><a href="">Bánh Canh</a></li>
+                        <li><a href="">Bún Bò</a></li>
+                        <li><a href="">Cao Lầu</a></li>
+                    </ul>
+                </li>
+                <li><a href="Trogiup.html">Trợ Giúp</a></li>
+                <form class="dangky" action="Login.html">
+                    <input type="Submit" value="Đăng Ký">
+                </form>
+            </ul>
+        </div>
+        <br style="clear: both;">
+        <div id="b2">
+            <img src="https://media.travelmag.vn/files/tranthuthao172/2020/08/16/am-thuc-3-mien-0107.jpg" alt="món ngon" width="1550px" height="300px">
+        </div>
+        <div id="b3">
+            <p><h1>Chọn câu hỏi mà bạn thắc mắc</h1></p>
+            <select>
+                <option value="volvo">Bạn muốn biết nấu món ăn nào?</option>
+                <option value="saab">Bạn gặp khó khăn ở công thức nào?</option>
+                <option value="mercedes">Món ăn nào khiến bạn vừa lòng nhất?</option>
+                <option value="audi">Website chúng tôi có phục vụ nhiệt tình không?</option>
+            </select>
+            <h3>Vui lòng ghi lại họ tên để chúng tôi có thể giải đáp thắc mắc của bạn</h3>
+            <form action="MAILTO:ltttam@hueic.edu.vn" method="post"
+            enctype="text/plain">
+            Name: <input type="text" name="name" value="your name" /><br />
+            E-mail: <input type="text" name="mail" value="your email" /><br />
+            SĐT: <input type="text" name="SĐT" value="your sđt" /><br />
+            Comment: <input type="text" name="comment" value="your comment"
+            size="50" />
+            <br /><br />
+            <input type="submit" value="Gửi">
+            <input type="reset" value="Nhập Lại">
+            </form>
+        </div>
+           
+            <br style="clear: both;">
+            <div id="b6" style="text-align: center;">
+                <p style="font-size: 20px; color: antiquewhite;">Facebook: Vanhoaamthucviet.com</p>
+                <p style="font-size: 20px; color: antiquewhite;">Hotline: 0987654321</p>
+            </div>
+    </div>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background: linear-gradient(to right, #5be71a , #e6f333   );
+        }
+        #B{
+            width: 1550px;
+            margin: 0px auto;
+        }
+        #b1{
+            width: 100%;
+            height: 80px;
+            float: left;
+        }
+        #logo{
+            width: 250px;
+            height: 150px;
+            float: left;
+        }
+        #thongtin{
+            width: 80%;
+            line-height: 80px;
+            float: left;
+        }
+            /*width: 1550px;
+            height: 80px;
+            background-color: rgb(113, 233, 16);float: left;
+            font-size: 20px;
+            float: left;
+        }*/
+        #thongtin li{
+            display: inline-block;
+        }
+        #thongtin li a{
+            color: black;
+            text-decoration: none;
+            line-height: 90px;
+            padding: 0 24px;
+        }
+        #thongtin li:hover a{
+            color: rgb(113, 233, 16);
+            background: white;
+            display: inline-block;
+        }
+        #thongtin .congthuc{
+            display: none;
+        }
+        #b2{
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+        }
+        #b3{
+            margin-left: 30px;
+            margin-top: 220px;
+            width: 1550px;
+            height: 100%;
+        }
+        #b5{
+            margin-top: 200px;
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+        .dangky{
+            width: 70px;
+            height: 200px;
+            float: right;
+            line-height: 80px;
+        }
+        .dangky input{
+            padding: 8px 16px;
+            outline: none;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: cornflowerblue;
+            cursor: pointer;
+        }
+        .anh{
+            width:auto;
+            height: auto;
+            float: left;
+            margin-top:15px;
+            margin-right:15px;
+            margin-bottom:15px;
+            margin-left:15px;
+        }
+        .anh button{
+            padding: 8px 10px;
+            border: none;
+            background-color: rgb(112, 206, 218);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .a{
+            width: 200px;
+            height: 50px;
+            float: left;
+            font-size: 30px;
+        }
+        .b{
+            width: 100%;
+            height: 100%;
+            float: bottom;
+            font-size: 24px; color: black;
+        }
+        .c{
+            width: auto;
+            height: 20px;
+            float: bottom;
+        }
+        .img{
+            border-radius: 10px;
+        }
+        #b6{
+            width: auto;
+            height: auto;
+            background-color: violet;
+        }
+    </style>
+</body>
+</html>
