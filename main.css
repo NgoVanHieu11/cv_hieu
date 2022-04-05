@@ -7,7 +7,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: linear-gradient(to right, #5be71a , #e6f333   );
+    background: linear-gradient(to right, #1ae762 , #33f360);
 }
 #B{
     width: 1550px;
@@ -98,7 +98,7 @@ body{
 .anh button{
     padding: 8px 10px;
     border: none;
-    background-color: rgb(112, 206, 218);
+    background-color: rgb(0, 251, 255);
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
